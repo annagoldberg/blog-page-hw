@@ -1,7 +1,7 @@
 
 function myFunction() {
   var dots = document.getElementById("dots");
-  var moreText = document.getElementById("more");
+  var moreText = document.getElementById("less");
   var btnText = document.getElementById("myButton");
 
   if (dots.style.display === "none") {
