@@ -1,0 +1,196 @@
+html *, html body * {
+	box-sizing: border-box;
+	font-family: "Open Sans";
+	max-width: 960px;
+}
+
+.first-section {
+  	padding: 10px;
+  	align-items: right;
+  	background-color: #033048;
+  	padding: 10px;
+  	color: white;
+
+}
+
+.header {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    background-color: #033048;
+    justify-content: space-between;
+    display: flex;
+    padding: 10px;
+
+}
+
+.intro {
+	display: block;
+	background-color: #033048;
+	color: white;
+	font-size: 40px;
+	font-weight: 600;
+}
+
+.a {
+	display: inline;
+	color: #f9e42e;
+}
+
+.h2 {
+	font-size: 40px;
+	display: flex;
+	background-color: #f0efef;
+}
+
+.column {
+	font-size: 24px;
+	font-weight: 300;
+	background-color: #f0efef;
+	padding: 10px;
+	height: 100%;
+}
+
+p {
+	margin: 5px;
+/*	display: block;
+*/}
+
+
+.solid {
+	width: 100%;
+	height: 2px;
+	color: solid black;
+	background-color: #f0efef;
+	padding: 10px;
+
+}
+
+span {
+	font-size: 50px;
+    font-weight: 400;
+    float: left;
+    padding: 2px;
+}
+
+span#more {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+span#dots {
+	font-size: 24px;
+    font-weight: 300;
+
+}
+
+.first-col {
+	flex: 5;
+}
+
+.last-col {
+	flex: 1;
+}
+/*.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}*/
+
+.flex-container {
+	background-color: #f0efef;
+	flex-direction: row;
+	display: flex;
+}
+
+.flex-container-2 {
+		background-color: #f0efef;
+		flex-direction: row;
+		display: flex;
+		order: 2;
+}
+
+/*.row {
+	flex-direction: column;
+}*/
+
+
+/*.one, .three {
+  flex: 0 0 50%;
+  width: calc(100% - 100px);
+}
+
+.two {
+  flex: 0 0 100%;
+  order: 1;
+  width: 100px;
+}*/
+
+.side-bar {
+	align-items: right;
+	display: flex;
+	flex-direction: column;
+
+}
+
+img.full-width {
+	width: 100%;
+
+}
+
+.more {
+	font-size: 24px;
+	padding: 40px;
+	text-align: right;
+	font-weight: 500;
+	outline: none;
+
+}
+
+.button {
+	margin: 50px;
+}
+
+.para {
+  overflow: hidden;
+  display: block;
+  height: 0px;
+  transition: height 0.5s ease-in-out;
+}
+
+.section {
+	font-family: "Open Sans";
+	padding: 8px 14px;
+	font-size: 14px;
+	border-radius: 5px;
+	background-color: #033048;
+    color: white;
+}
+
+#yellow {
+    background-color: #f9e42e;
+    padding: 20px;
+    text-align: center;
+}
+
+h4 {
+	font-size: 9px;
+	font-weight: 600;
+	margin: 70px;
+	background-color: #033048;
+}
+
+h5 {
+	font-size: 24px;
+	color: #f9e42e;
+	/*align-items: center;*/
+	text-align: center;
+}
+
+.footer {
+	background-color: #121212;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
