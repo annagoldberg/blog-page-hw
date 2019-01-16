@@ -6,7 +6,7 @@ function myFunction() {
 
   if (dots.style.display === "none") {
     dots.style.display = "inline";
-    btnText.innerHTML = "Read more > "; 
+    btnText.innerHTML = "Read less > "; 
     moreText.style.display = "none";
   } else {
     dots.style.display = "none";
