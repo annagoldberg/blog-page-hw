@@ -87,6 +87,12 @@ span#dots {
 
 }
 
+span#lessButtonTwo {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+
 .first-col {
 	flex: 5;
 }
@@ -154,7 +160,14 @@ button#myButton {
     margin: 50px;
     border: none;
     background-color: #f0efef;
-    font-weight: 600;
+    font-weight: 400;
+    }
+
+button#myButtonTwo {
+    margin: 50px;
+    border: none;
+    background-color: #f0efef;
+    font-weight: 400;
     }
 
 .para {
