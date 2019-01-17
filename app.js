@@ -15,9 +15,9 @@ function myFunction() {
   }
 }
 
-function myFunction() {
+function myFunction2() {
   var dots = document.getElementById("dash");
-  var moreText = document.getElementById("lessButtonTwo");
+  var moreText = document.getElementById("more");
   var btnText = document.getElementById("myButtonTwo");
 
   if (dash.style.display === "none") {

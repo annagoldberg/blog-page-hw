@@ -79,11 +79,13 @@ span {
 span#less {
     font-size: 24px;
     font-weight: 300;
+    display: none;
 }
 
 span#dots {
 	font-size: 24px;
     font-weight: 300;
+    display: none;
 
 }
 
@@ -91,6 +93,7 @@ span#lessButtonTwo {
     font-size: 24px;
     font-weight: 300;
 }
+
 
 
 .first-col {
@@ -169,6 +172,11 @@ button#myButtonTwo {
     background-color: #f0efef;
     font-weight: 400;
     }
+
+    span#more {
+    font-size: 24px;
+    font-weight: 300;
+	}
 
 .para {
   overflow: hidden;
